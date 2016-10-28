@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BeatBoxThemeHolo" parent="android:Widget.Holo.Button">
+
+    </style>
+    <style name="BeatBoxThemeMaterial" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/button_beat_box</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <item name="colorAccent">@color/gray</item>
+        <item name="android:colorBackground">@color/soothing_blue</item>
+        <item name="android:buttonStyle">@style/BeatBoxThemeMaterial</item>
+    </style>
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>-->
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <item name="colorAccent">@color/gray</item>
+        <item name="android:colorBackground">@color/soothing_blue</item>
+        <item name="android:buttonStyle">@style/BaseBoxThemeBackground</item>
+    </style>
+
+    <style name="BeatBoxTheme">
+        <item name="android:background">@color/dark_blue</item>
+    </style>
+
+    <style name="BeatBoxTheme.Strong">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BaseBoxThemeBackground" parent="android:Widget.Holo.Button">
+        <item name="android:background">@color/dark_blue</item>
+    </style>
+
+</resources>
